@@ -1,0 +1,9 @@
+apply plugin: 'java'
+
+//def outputDir = "D:/GitHub/GreenDaoDemo/app/src/main/java-gen"
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    //添加对应Java依赖
+    compile 'de.greenrobot:greendao-generator:2.0.0'
+}
